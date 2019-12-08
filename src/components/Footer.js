@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class Footer extends Component {
-  render() {
+  render () {
     return (
       <footer className="page-footer black darken-3">
         <div className="container">
@@ -21,6 +21,7 @@ export default class Footer extends Component {
                 <li><a href="https://fontawesome.com/" className="grey-text"><i className="fab fa-font-awesome"></i> Fontawesome CSS</a></li>
                 <li><a href="https://picsum.photos/" className="grey-text"><i className="fas fa-image"></i> Picsum</a></li>
                 <li><a href="https://www.oracle.com/cloud/" className="grey-text"><i className="fas fa-cloud"></i> Oracle Cloud</a></li>
+                <li><a href="https://github.com/" className="grey-text"><i className="fab fa-github"></i> Github</a></li>
               </ul>
             </div>
             <div className="col s12 m6 l3">
@@ -32,7 +33,7 @@ export default class Footer extends Component {
             <div className="col s12 m6 l3">
               <h6>DONATE</h6>
               <ul>
-                <li><img src={process.env.PUBLIC_URL + '/assets/qrcode.jpg'} alt="QRcode" className="responsive-img"/></li>
+                <li><img src={process.env.PUBLIC_URL + '/assets/qrcode.jpg'} alt="QRcode" className="responsive-img" /></li>
               </ul>
             </div>
           </div>
@@ -44,7 +45,7 @@ export default class Footer extends Component {
             <div>Homeless Group</div>
           </div>
         </div>
-  </footer>
+      </footer>
     )
   }
 }
