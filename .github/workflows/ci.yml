@@ -1,4 +1,4 @@
-name: GitHub Actions Build and Deploy
+name: gh-deploy
 on:
   push:
     branches:
