@@ -22,6 +22,7 @@ export default class Footer extends Component {
                 <li><a href="https://picsum.photos/" className="grey-text"><i className="fas fa-image"></i> Picsum</a></li>
                 <li><a href="https://www.oracle.com/cloud/" className="grey-text"><i className="fas fa-cloud"></i> Oracle Cloud</a></li>
                 <li><a href="https://github.com/" className="grey-text"><i className="fab fa-github"></i> Github</a></li>
+                <li><a href="https://cloudflare.com/" className="grey-text"><i className="fas fa-cloud"></i> Cloudflare</a></li>
               </ul>
             </div>
             <div className="col s12 m6 l3">
